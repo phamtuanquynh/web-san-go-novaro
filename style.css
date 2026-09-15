@@ -110,3 +110,42 @@ body {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+/* Định dạng cho ảnh sản phẩm */
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* Định dạng phần uy tín / đại diện */
+.trust-section {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.trust-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.rep-box, .cert-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.rep-box img, .cert-box img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #8B4513;
+}
